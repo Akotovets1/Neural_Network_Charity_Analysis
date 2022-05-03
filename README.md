@@ -31,13 +31,16 @@ They did not increase the accuracy and did not add value to the model.
 
 #### How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
-For layer 1 we started with 120 neurons with a relu activation. 
+For layer 1 we started with 110 neurons with a relu activation. 
 For layer 2, we applied the same relu activation, but reduced to 80 neurons. 
 For layer 3 with 40 neurons and layer 4 with 20 neurons we applied the the sigmoid activation and it showed the best result.
 
+![1](https://github.com/Akotovets1/Neural_Network_Charity_Analysis/blob/main/Resources/1.png)
+
+
 #### Were you able to achieve the target model performance?
 
-The target for the model was 75%, but the best the model could produce was 72.7%.
+The target for the model was 75%, but the best the model could produce was 72.6%.
 
 
 #### What steps did you take to try and increase model performance?
@@ -48,8 +51,10 @@ The target for the model was 75%, but the best the model could produce was 72.7%
 - Other activations were tried such as tanh, but the range that model produced went from 40% to 68% accuracy 
 - The relu activation at the early layers and sigmoid activation at the latter layers give the best results.
 
+![2](https://github.com/Akotovets1/Neural_Network_Charity_Analysis/blob/main/Resources/02.png)
+
 ## Summary:
 
-The relu and sigmoid activations produced a 72.7% accuracy. So, this is the best model we used. 
+The relu and sigmoid activations produced a 72.6% accuracy. So, this is the best model we used. 
 The next step could be trying a random forest classifier because this model is less influenced by outliers.
 
